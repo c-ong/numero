@@ -20,11 +20,13 @@ Approach
 * worry about the placement of "and's"  
 * Refactor refactor refactor  
  
+
     private String [] units = { "", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };  
     private String [] teens = { "", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen" };  
     private String [] tens = { "", "ten", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety" };  
 
-To build and run the test suite:
+
+To build and run the test suite:  
 mvn clean install
 
 java -cp target/numero-1.0.jar NumFormatter <number>
