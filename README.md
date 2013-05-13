@@ -4,16 +4,13 @@ Numero
 Given any number, convert to plain english:
 1 = one  
 33 = thirty three  
-635 = sic hundred and thirty five
-76876586 = seventy six million eight hundred and sixty seven thousand five hundred and eighty six
-
+635 = six hundred and thirty five
+76876586 = seventy six million eight hundred and seventy six thousand five hundred and eighty six
 
 Aims
 ----
-* How simple can I make the solution  
-* Drive development through unit tests
-
-This is a fairly involved problem, but on the flip side easy to understand.     
+* Create concise, simple solution  
+* Test driven development
 
 Approach
 --------
@@ -26,9 +23,6 @@ Approach
     private String [] units = { "", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
     private String [] teens = { "", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen" };
     private String [] tens = { "", "ten", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety" };
-
-     
-
 
 To build and run the test suite:
 mvn clean install
